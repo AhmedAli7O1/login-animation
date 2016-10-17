@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    background: linear-gradient(to left bottom, #000, #fff);
+    text-align: center;
+    display: none;
+}
+
+.message {
+    position: relative;
+    top: 45%;
+    color: #fff;
+    font-weight: 700;
+}
+
+#topBox, #bottomBox {
+    right: 42.5%;
+    left: 42.5%;
+}
+
+#bottomBox {
+    bottom: 0;
+}
+
+#leftBox, #rightBox {
+    top: 42.5%;
+    bottom: 42.5;
+} 
+
+#rightBox {
+    right: 0;
+}
+
+#loginBox {
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+}
